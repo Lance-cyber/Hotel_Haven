@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Removes default browser margin */
+}     
+body {
+    background-image: url(images/lightgreen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(96, 216, 96);
+}
+table, td, tr{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    padding: 0px;
+    column-rule-style: none;
+}
+td, th, tr{
+    width: 100px;
+}
+caption{
+    text-align: left;
+    font-size: 20px;
+}
