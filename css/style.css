@@ -1,30 +1,32 @@
 html, body {
-    height: 100%;
-    margin: 0; /* Removes default browser margin */
+  height: 100%;
+  margin: 0; /* Removes default browser margin */
 }     
 body {
-    background-image: url(images/lightgreen.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url(images/lightgreen.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-h1 {
+h1{
     text-align: center;
-    padding-top: 15px;
-    color: rgb(96, 216, 96);
+    padding-top: 3px;
 }
-table, td, tr{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 1px;
-    padding: 0px;
-    column-rule-style: none;
+table {
+  border-collapse: collapse;
+  margin: 20px auto; /* centers the table */
+  width: 80%;
+  text-align: center;
 }
-td, th, tr{
-    width: 100px;
+
+td {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: none; /* gray boxes */
 }
-caption{
-    text-align: left;
-    font-size: 20px;
+
+.logo {
+  text-align: left;
+  font-weight: bold;
+  background-color: none;
 }
