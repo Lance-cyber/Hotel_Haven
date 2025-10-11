@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px; /* Increased gap between all child elements */
+    gap: 25px; 
     transition: transform 0.3s ease;
 }
 
@@ -60,7 +60,7 @@ button {
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 15px; /* 👈 adds space between inputs and button */
+    margin-top: 15px; 
     transition: background-color 0.3s, transform 0.2s;
 }   
 
