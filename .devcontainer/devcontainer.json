@@ -1,0 +1,11 @@
+{
+  "name": "HTML Live Server Project",
+  "forwardPorts": [5502],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer"
+      ]
+    }
+  }
+}
